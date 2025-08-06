@@ -1,0 +1,135 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.main__title {
+  font-size: 24px;
+  color: #000;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.main__search-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 40px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.main__input {
+  flex: 1;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.main__input:focus {
+  background-color: lightblue;
+}
+
+.main__button {
+  background-color: #008cff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.main__button:hover {
+  opacity: 0.8;
+}
+
+.main__divider {
+  width: 100%;
+  max-width: 500px;
+  border: none;
+  border-top: 1px solid #000;
+  margin-bottom: 40px;
+}
+
+.main__error {
+  margin-bottom: 40px;
+  background-color: #008cff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.main__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.main__show-more-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.main__show-more-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.main__show-more-button:hover {
+  opacity: 0.8;
+}
+
+.main__grid--center {
+  justify-items: center;
+  grid-template-columns: 1fr;
+}
+
+/* -----------------------------------------MODO CELULAR------------------------------------ */
+
+@media (max-width: 900px) {
+  .main__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .main__title {
+    font-size: 20px;
+  }
+
+  .main__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .main__title {
+    font-size: 18px;
+  }
+
+  .main__search-container {
+    max-width: 300px;
+  }
+
+  .main__input {
+    font-size: 14px;
+  }
+
+  .main__button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}

@@ -1,12 +1,42 @@
-# React + Vite
+Country Search — Projeto Final (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o projeto final do curso de Web Development da TripleTen.
+Optei por desenvolver um aplicativo frontend em React que consome uma API de terceiros.
+A ideia foi criar um buscador de países, utilizando a **REST Countries API**, com uma interface intuitiva, responsiva e organizada por componentes reutilizáveis.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✴️ **Tecnologias Utilizadas**
 
-## Expanding the ESLint configuration
+-React com Vite
+-JavaScript (ES6)
+-CSS modularizado
+-React Router DOM
+-Fetch API
+-Git e GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+✴️ **Funcionalidades**
+
+✅Sugestão inicial de 3 países exibidos em grid
+✅Botão “Show More” que exibe +6 países / “Show Less” que recolhe
+✅Campo de busca com botão Search
+✅Preloader com atraso de 3 segundos antes da exibição do país
+✅Resultado da busca aparece como um card centralizado
+✅Navegação entre rotas Home e About
+✅Página About com descrição e imagem
+✅Interações visuais com hover e layout responsivo
+✅Organização em pastas (components/, blocks/, utils/, images/)
+
+---
+
+✴️ **Repositório GitHub**
+
+https://github.com/vanessanascimento28/Final-Project.git
+
+---
+
+✴️ **Autora**
+
+Feito por Vanessa Nascimento

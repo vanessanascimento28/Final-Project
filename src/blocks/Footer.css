@@ -1,0 +1,31 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.footer__content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__left,
+.footer__right {
+  margin: 0;
+}
+
+/* -----------------------------------------MODO CELULAR------------------------------------ */
+
+@media screen and (max-width: 380px) {
+  .footer {
+    max-width: 380px;
+    font-size: 14px;
+    flex-wrap: wrap;
+  }
+}
