@@ -55,4 +55,4 @@ https://github.com/vanessanascimento28/Final-Project.git
 
 **👩‍💻 Autora**
 
-Feito por Vanessa do Nascimento da Silva
+Feito por Vanessa do Nascimento da Silva.
