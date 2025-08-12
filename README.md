@@ -49,6 +49,10 @@ O maior desafio foi desenvolver toda a base da aplicação do zero — sem estru
 
 ---
 
+**🚀 Demo Online**
+
+[👉 Acesse a aplicação no Netlify](https://silly-biscuit-c9a2c1.netlify.app/)
+
 **📂 Repositório GitHub**
 
 https://github.com/vanessanascimento28/Final-Project.git
