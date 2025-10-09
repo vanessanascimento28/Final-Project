@@ -1,5 +1,7 @@
 # 🌍 Country Search — Projeto Final (Frontend)
 
+![Print da tela do projeto country search](./src/images/Country%20Search.png)
+
 O Country Search é um projeto frontend desenvolvido com React como parte da conclusão do curso Web Development da TripleTen. A proposta foi construir, do zero, uma aplicação que consome dados de uma API externa (REST Countries API), com foco em boas práticas de responsividade, usabilidade e estrutura de código. Diferente de etapas anteriores do curso, este projeto exigiu autonomia total na criação da arquitetura, organização de componentes e lógica de funcionamento da aplicação.
 
 **🎯 Objetivo do Projeto**
@@ -31,7 +33,6 @@ O maior desafio foi desenvolver toda a base da aplicação do zero — sem estru
 - Página About com descrição e imagem
 - Interações visuais com hover e layout responsivo
 - Organização em pastas (components/, blocks/, utils/, images/)
-
 
 **🚀 O que aprendi com esse projeto**
 
